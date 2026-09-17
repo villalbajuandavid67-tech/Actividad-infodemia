@@ -1,10 +1,107 @@
-body{
- margin:10px;
-  background-color:#395296;
-   font-family:arial,sans-serif;
+body {
+margin: 10px;
+background-color: #395296;
+font-family: arial, sans-serif;
+color: #ffffff;
+
 }
 
-h3{
- font-family:Georgia;
- color:white;
+header {
+text-align: center;
+padding: 20px;
+background-color: #26385f;
+border-bottom: 4px solid #f2a900;
+border-radius: 8px;
+}
+
+header h1 {
+margin: 0 0 5px 0;
+}
+
+nav {
+background-color: #26385f;
+margin-top: 10px;
+padding: 10px;
+border-radius: 8px;
+}
+
+nav ul {
+justify-content: center;
+}
+
+nav a {
+color: #ffffff;
+padding: 6px;
+border: 2px solid transparent;
+border-radius: 5px;
+}
+
+nav a:hover {
+background-color: #f2a900;
+color: #26385f;
+border-color: #ffffff;
+}
+
+main {
+max-width: 800px;
+margin: 20px auto;
+}
+
+.robot {
+background-color: #2f4a80;
+margin-bottom: 20px;
+padding: 20px;
+border: 1px solid #5a7bb8;
+border-radius: 10px;
+text-align: center;
+}
+
+.robot img {
+max-width: 100%;
+border-radius: 8px;
+border: 2px solid #f2a900;
+}
+
+.robot h3 {
+color: #f2a900;
+margin-top: 15px;
+}
+
+.robot p {
+text-align: left;
+}
+
+.robot ul {
+text-align: left;
+padding-left: 20px;
+}
+
+.robot li {
+margin-bottom: 8px;
+}
+
+.boton {
+display: inline-block;
+margin-top: 10px;
+padding: 10px 20px;
+background-color: #f2a900;
+color: #26385f;
+text-decoration: none;
+font-weight: bold;
+border-radius: 6px;
+border: 2px solid #f2a900;
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.boton:hover {
+background-color: transparent;
+color: #ffffff;
+}
+
+footer {
+text-align: center;
+padding: 12px;
+background-color: #26385f;
+border-radius: 8px;
+font-size: 0.9rem;
 }
